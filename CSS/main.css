@@ -1,0 +1,29 @@
+:root {
+    --width: 700px;
+}
+
+
+
+body {
+    background-color: rgba(133,120,230,255);
+
+}
+
+.main-content {
+    display: inline-block;
+    width: var(--width);
+    margin-left: calc((100% - var(--width)) / 2);
+    margin-top: 10%;
+}
+
+.left-column {
+    float: left;
+    margin-left: 0;
+    width: 28%; 
+}
+
+.right-column {
+    width: 70%;
+    float: right;
+}
+
